@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "react-weather",
+    "name": "React Weather",
     "slug": "react-weather",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,12 +22,16 @@
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.ibnunaufal.weather",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ibnunaufal.reactweather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Aplikasi cek cuaca",
+    "githubUrl": "https://github.com/ibnunaufal/react-weather"
   }
 }
